@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ui-content{
    
   background-color: #1d1d1d;
@@ -42,3 +43,49 @@ color:green;
  
  }
 
+=======
+.ui-content{
+   
+  background-color: #1d1d1d;
+ 
+}
+
+table,tr,th,td{
+ border: 1px solid white;
+width: 60px;
+}
+.ui-responsive{
+ width: 100%;
+   
+}
+.inp{
+width: 100%;
+}
+
+
+tr{
+color: white;
+}
+input{
+	color: white;
+	width: 60px;
+ background-color: transparent;
+    border: 0px solid;
+}
+.ui-btn{
+font-size: 11px;
+ font-weight: bold;
+ text-fill: white;
+ background-radius: 30;
+ background-color: green;
+}
+.ui-btn:hover{font-size: 11px;
+ font-weight: bold;
+ text-fill: #1d1d1d;
+ background-radius: 50;
+ background-color: orange;
+color:green;
+ 
+ }
+
+>>>>>>> 76125fe7be162450faf5de35c419081e5ca577f9

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package pl.eurogeo;
 
 import javax.persistence.Entity;
@@ -27,3 +28,34 @@ public void setUserName(String userName) {
 }
 
 }
+=======
+package pl.eurogeo;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+private long userId;
+private String userName;
+
+public User() {}
+public User(long userId, String userName) {
+	this.userId=userId;
+	this.userName = userName;
+}
+
+public String getUserName() {
+	return userName;
+}
+
+public void setUserName(String userName) {
+	this.userName = userName;
+}
+
+}
+>>>>>>> 76125fe7be162450faf5de35c419081e5ca577f9
